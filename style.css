@@ -1,0 +1,237 @@
+@import url('https://fonts.googleapis.com/css2?family=Satisfy&display=swap');
+
+/**** Reset ****/
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/**** Variables CSS ***/
+
+:root {
+    --width: 450px;
+    --height: calc(var(--width) * 0.5);
+}
+
+/**** Style général de la page ****/
+
+body {
+    width: 100%;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #85ffbd;
+    background-image: linear-gradient(45deg, #85FFBD 0%, #FFFB7D 100%);
+    font-family: 'Satisfy', cursive;
+}
+
+header, footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 40px 15px 20px;
+}
+
+header h1 {
+    text-align: center;
+    font-size: 70px;
+}
+
+.main__content {
+    flex-grow: 1;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+}
+
+.step {
+    width: var(--width);
+    height: var(--height);
+    background-color: #006400;
+    clip-path: polygon(50% 0, 100% 100%, 0 100%);
+}
+
+.step:nth-of-type(1) {
+    width: calc(var(--width) * 0.25);
+    height: calc(var(--height) * 0.25);
+    transform: translateY(280%);
+}
+
+.step:nth-of-type(2) {
+    width: calc(var(--width) * 0.5);
+    height: calc(var(--height) * 0.5);
+    transform: translateY(120%);
+}
+
+.step:nth-of-type(3) {
+    width: calc(var(--width) * 0.75);
+    height: calc(var(--height) * 0.75);
+    transform: translateY(50%);
+}
+
+.down {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.trunk {
+    width: 60px;
+    height: 100px;
+    background-color: #642d00;
+}
+
+.gifts {
+    width: calc(var(--width) * 0.66); 
+    transform: translateY(-30%);
+}
+
+.gifts img {
+    width: 100%;
+}
+
+.decoration {
+    position: absolute;
+    z-index: 100; /* Pour sue la décoration soit au-dessus du sapin */
+    display: block;
+}
+
+.star {
+    background-color: #fffb00;
+    height: calc(var(--height) * 0.35);
+    width: calc(var(--height) * 0.35);
+    top: calc(var(--width) / 4);
+    clip-path: polygon(50% 0%, 61% 35%, 98% 35%, 68% 57%, 79% 91%, 50% 70%, 21% 91%, 32% 57%, 2% 35%, 39% 35%);
+}
+
+.ball {
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+    animation: blinking 3s ease-in-out infinite;
+}
+
+@keyframes blinking {
+    10% {
+        opacity: 0.8;
+    }
+
+    20% {
+        opacity: 1;
+    }
+
+    30% {
+        opacity: 0;
+    }
+
+    40% {
+        opacity: 1;
+    }
+
+    50% {
+        opacity: 0.8;
+    }
+
+    60% {
+        opacity: 1;
+    }
+
+    70% {
+        opacity: 0.8;
+    }
+
+    80% {
+        opacity: 1;
+    }
+
+    90% {
+        opacity: 0.8;
+    }
+
+    100% {
+        opacity: 1;
+    }
+}
+
+#b1 {
+    top: 30%;
+    left: 42%;
+    background-color: #ff0000;
+    animation-delay: 0.25s;
+}
+
+#b2 {
+    top: 34%;
+    left: 59%;
+    background-color: #00ffff;
+    animation-delay: 0.5s;
+}
+
+#b3 {
+    top: 49%;
+    left: 22%;
+    background-color: #0000ff;
+    animation-delay: 0.75s;
+}
+
+#b4 {
+    top: 49%;
+    left: 73%;
+    background-color: #ffa500;
+    animation-delay: 1s;
+}
+
+#b5 {
+    top: 60%;
+    left: 63%;
+    background-color: #ffc0cb;
+    animation-delay: 1.25s;
+}
+
+#b6 {
+    top: 65%;
+    left: 80%;
+    background-color: #800080;
+    animation-delay: 1.5s;
+}
+
+#b7 {
+    top: 65%;
+    left: 49%;
+    background-color: #e6e6fa;
+    animation-delay: 1.75s;
+}
+
+#b8 {
+    top: 59%;
+    left: 30%;
+    background-color: #ff7f50;
+    animation-delay: 2s;
+}
+
+#b9 {
+    top: 65%;
+    left: 14%;
+    background-color: #01ff01;
+    animation-delay: 2.25s;
+}
+
+#b10 {
+    top: 45%;
+    left: 47%;
+    background-color: #ffd700;
+    animation-delay: 2.5s;
+}
+
+.footer span {
+    text-align: center;
+    font-size: 30px;
+}
