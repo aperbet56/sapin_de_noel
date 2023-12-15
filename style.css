@@ -55,7 +55,7 @@ header h1 {
 .step {
     width: var(--width);
     height: var(--height);
-    background-color: #006400;
+    background-color: #014d01;
     clip-path: polygon(50% 0, 100% 100%, 0 100%);
 }
 
@@ -231,7 +231,7 @@ header h1 {
     animation-delay: 2.5s;
 }
 
-.footer span {
+footer span {
     text-align: center;
     font-size: 30px;
 }
