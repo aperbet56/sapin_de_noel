@@ -15,4 +15,5 @@ Lien vers le projet : https://aperbet56.github.io/sapin_de_noel/
 - Flexbox
 - Animations CSS
 - Utilsation d'un normaliseur : le fichier normalize.css
+- Page web responsive
 - Desktop first
