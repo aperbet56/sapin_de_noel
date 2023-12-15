@@ -14,6 +14,7 @@ Lien vers le projet : https://aperbet56.github.io/sapin_de_noel/
 - CSS
 - Flexbox
 - Animations CSS
+- Importation de la police Satisfy
 - Utilsation d'un normaliseur : le fichier normalize.css
 - Page web responsive
 - Desktop first
