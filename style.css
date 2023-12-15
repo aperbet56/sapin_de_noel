@@ -235,3 +235,23 @@ footer span {
     text-align: center;
     font-size: 30px;
 }
+
+/**** Responsive design ****/
+
+@media screen and (max-width : 572px) {
+    .step {
+        width: 325px;
+    }
+
+    .step:nth-of-type(1) {
+        width: calc(325 * 0.25);
+    }
+    
+    .step:nth-of-type(2) {
+        width: calc(325 * 0.5);
+    }
+    
+    .step:nth-of-type(3) {
+        width: calc(325 * 0.75);
+    }
+}
