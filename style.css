@@ -116,7 +116,7 @@ header h1 {
     width: 20px;
     height: 20px;
     border-radius: 50%;
-    animation: blinking 3s ease-in-out infinite;
+    animation: blinking 1.5s ease-in-out infinite;
 }
 
 @keyframes blinking {
