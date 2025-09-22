@@ -1,4 +1,6 @@
-## MON SAPIN DE NOEL
+## MON SAPIN DE NOEL 🎄
+
+![Design preview for the project](./img/preview.png)
 
 ## Le challenge
 
@@ -8,7 +10,7 @@ Création d'un sapin de Noël en HTML5 et CSS3 avec boule de Noël qui clignotte
 
 Lien vers le projet : https://aperbet56.github.io/sapin_de_noel/
 
-## Développez avec
+## Projet développé avec
 
 - Utilisation des balises sémantiques HTML5
 - CSS
